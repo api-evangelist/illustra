@@ -1,8 +1,26 @@
 aid: illustra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/illustra.png
 name: Illustra
-description: 'Illustra is a company surfaced as a portfolio company of trinity-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Illustra Information Technologies was an object-relational database company founded in 1992
+  by Michael Stonebraker, Gary Morgenthaler and several of Stonebraker''s students to commercialize the
+  Postgres research project. Its DataBlade extensibility modules let structured and unstructured multimedia
+  data (text, geospatial, web content) be stored and indexed as true objects. NASA selected it in 1995 to
+  store millions of satellite images. Informix Corporation acquired the company in 1996 and folded the
+  object-relational engine and DataBlades into what became Informix Universal Server; that lineage passed
+  to IBM and is now maintained by HCL Technologies. Illustra no longer exists as an independent entity and
+  publishes no standalone website, developer portal, or API. This record was surfaced from a historical
+  Trinity Ventures portfolio list; enrichment found no live API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/illustra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,31 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct-reason: acquired
+x-acquired-by: informix
+x-founded: '1992'
+x-acquired: '1996'
+x-enrichment-outcome: no-live-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise Software
+- Database
+- Object-Relational Database
+- Acquired
+- Defunct
+- Historical
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
