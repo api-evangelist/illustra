@@ -34,7 +34,7 @@ x-acquired-by: informix
 x-founded: '1992'
 x-acquired: '1996'
 x-enrichment-outcome: no-live-api-surface
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
